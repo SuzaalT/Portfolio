@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="switch-center">
+        <label class="switch">
+          <input type="checkbox" onclick="darkmode()" checked />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="right-nav">
+      <li><a href="#contact">Get In touch</a></li>
+      <li><a href="#projects">My Projects</a></li>
+      <li><a href="#about">About</a></li>
+    </div>
+    </nav>
+    <div class="main">
+    <section class="home" id="home">
+      <div class="title">
+        <p class="home-title">Suzaal Thapa</p>
+        <div class="avatar-wrapper">
+          <img class="avatar" src="unnamed.jpg" alt="dark-img" />
+        </div>
+        <p class="below-title">Best in the West</p>
+      </div>
+      <p class="description">
+        Welcome to my corner of the web! I'm Suzaal Thapa, a passionate
+        front-end developer based in Hamilton, ON. I specialize in crafting
+        immersive digital experiences through responsive and visually appealing
+        web interfaces. With a keen eye for design and a love for clean,
+        efficient code, I strive to bring ideas to life in the digital world.
+        Explore my portfolio to see some of my latest projects and get in touch
+        to collaborate on your next web venture.
+      </p>
+    </section>
+    <section class="about" id="about">
+      <p class="home-title">Suzaal Thapa</p>
+      <p class="description">
+        Greetings! I'm Suzaal Thapa, a passionate front-end developer based in
+        Hamilton, ON. My journey into web development was sparked by a friend
+        named Satish, whose encouragement and support motivated me to create
+        this platform. Through this website, I aim to showcase my skills and
+        projects to the world. Crafting beautiful and functional web experiences
+        is not just my job but my passion. I believe in the power of web
+        development to transform ideas into reality and am committed to pushing
+        the boundaries of creativity in web design. Join me on this digital
+        journey as I continue to grow and evolve, seeking new challenges and
+        opportunities. Let's connect and collaborate to bring your digital
+        vision to life. Together, let's make the web a more captivating place,
+        one project at a time.
+      </p>
+    </section>
+    <section class="myprojects" id="myprojects"></section>
+    <section class="contact" id="contact">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out to me through any of the following channels:</p>
+      <ul>
+        <li>Phone: 905-921-7980</li>
+        <li>Email: suzaalthapa@gmail.com</li>
+      </ul>
+      <form method="get" action="/Email.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="message">Message:</label><br /><textarea
+          id="message"
+          name="message"
+          rows="8"
+          cols="100"
+        ></textarea
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-right">
+        <h3>Follow Me:</h3>
+        <div class="footer-social">
+          <a href="www.youtube.com"
+            ><img class="icon" src="youtube.png" alt="logo"
+          /></a>
+          <a href="https://www.facebook.com/Suzaal101/"
+            ><img class="icon" src="facebook.png" alt="logo"
+          /></a>
+          <a href="https://www.instagram.com/_suzaal/"
+            ><img class="icon" src="instagram.png" alt="logo"
+          /></a>
+          <a href="https://www.x.com/supercell"
+            ><img class="icon" src="twiter.png" alt="logo"
+          /></a>
+          <img class="icon" src="linkedin.png" alt="logo" />
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
